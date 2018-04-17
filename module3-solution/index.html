@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<h1>Food, LLC</h1>
+					</div>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+				</div><!--End of navbar-header -->
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<span class="visible-xs">Chicken</span>
+						</li>
+						<hr></hr>
+						<li>
+							<span class="visible-xs">Beef</span>
+						</li>
+						<hr></hr>
+						<li>
+							<span class="visible-xs">Sushi</span>
+						</li>
+					</ul><!-- #nav-list -->
+        		</div><!-- .collapse .navbar-collapse -->
+			</div><!--End of container-fluid -->
+		</nav>
+	</header>
+	<div>
+		<h1 class="text-center">Our Menu</h1>
+	</div>
+
+	<div id="main-content" class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<h4 class="text-center">Chicken</h4>
+				<p>Chicken: Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile. To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section. Make sure its background color is set to distinguish it from the rest of the content. (Hint: don't forget to have an element with a class='container' or class='container-fluid' wrapping your grid. Remember that to have the grid do something "always", i.e., no matter what browser window size, use the col-xs-... classes. In this case, since we want the section to take up the entire row, use col-xs-12.).Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes predefined classes for easy layout options, as well as powerful mixins for generating more semantic layouts.Grid systems are used for creating page layouts through a series of rows and columns that house your content. Here's how the Bootstrap grid system works: Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.Use rows to create horizontal groups of columns.Content should be placed within columns, and only columns may be immediate children of rows.Predefined grid classes like .row and .col-xs-4 are available for quickly making grid layouts.Less mixins can also be used for more semantic layouts.Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the first and last column via negative margin on .rows.The negative margin is why the examples below are outdented. It's so that content within grid columns is lined up with non-grid content.Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three .col-xs-4.If more than 12 columns are placed within a single row, each group of extra columns will, as one unit, wrap onto a new line.Grid classes apply to devices with screen widths greater than or equal to the breakpoint sizes, and override grid classes targeted at smaller devices. Therefore, e.g. applying any .col-md-* class to an element will not only affect its styling on medium devices but also on large devices if a .col-lg-* class is not present.</p>
+			</div>
+		</div>
+	</div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
